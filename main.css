@@ -1,0 +1,76 @@
+html{
+    background-image: url("assets/Life\ changing\ video\ games.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+}
+
+/* *{box-sizing: border-box;} */
+
+.navBar{
+    border:solid 1px black;
+    text-align: left;
+    position: fixed;
+    background-color: lightgray;
+    opacity: 0.5;
+    top: 0;
+    right: 4px;
+    width:150px;
+    height:105px;
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color:white;
+    position: relative;
+}
+hr{
+    border: solid 2px black;
+}
+
+li{
+    padding:5px;
+}
+
+.picture{
+    display: block;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#picOne{
+    /* Mass Effect 2 art*/
+    top: 120px;
+    left: 8%;
+}
+
+#picTwo{ /*AC Valhalla art*/
+    bottom: 40px;
+    left: 43%;
+}
+
+#picThree{
+    /* Cyberpunk 2077*/
+    top:120px;
+    right:8%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: goldenrod;
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+.footerTest{
+    padding:20px;
+}
+	
+
